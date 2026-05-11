@@ -55,6 +55,8 @@ npm run build
 
 - 标准账号密码登录：`name="username"` + `type="password"`。
 - 问题复现：手机号 `autocomplete="off"` + 无稳定 `name`。
+- 对照场景：有稳定 `name` 但 `autocomplete="off"`。
+- 对照场景：只有 `autocomplete="on"` 但没有稳定 `name`。
 - 推荐手机号方案：`type="tel"` + `name="phone"` + `autocomplete="tel"`。
 - 手机号作为账号：`name="username"` + `autocomplete="username"`。
 - 邮箱和搜索输入对照组。
